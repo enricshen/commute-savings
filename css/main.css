@@ -141,12 +141,16 @@ textarea:-ms-input-placeholder { color: #adadad;}
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #a64bf4;
-  background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: linear-gradient(45deg, #00dbde, #fc00ff);
-
+  background:
+    /* top, transparent  */
+    linear-gradient(
+      rgba(132,106,221,0.9),
+      rgba(132,106,221,0.9)
+    ),
+    /* bottom, image */
+    url('../images/bg-01.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
 }
 
 div.wrap-contact100{
