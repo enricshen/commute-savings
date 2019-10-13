@@ -164,3 +164,7 @@ div.wrap-contact100{
   overflow: hidden;
   padding: 42px 55px 45px 55px;
 }
+
+.myRef {
+  transition-delay: 5s;
+}
