@@ -29,6 +29,9 @@
 
 <div class="container-contact100">
 	<div class="wrap-contact100">
+		<div><img class="img-fluid" src="images/banner.jpg"></div>
+		<div id="myLoading">
+			<img src="images/loading.gif" class="mx-auto d-block"></div>
 			<!-- Locad uCal -->
 		<div class="uCalc_234001"></div>
 			<!-- Reference -->
@@ -105,10 +108,16 @@
 	<script src="js/main.js"></script>
 
 	<script>
+	$(document).ready(function() {
+	 $('#myLoading').delay(1500).fadeOut(1000);
+	});
+
 		$(document).ready(function() {
 	   $('.myRef').delay(6000).fadeIn(6000);
-	});
+		});
 </script>
+
+
 
 </body>
 </html>
