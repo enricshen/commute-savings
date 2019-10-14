@@ -27,11 +27,40 @@
 </head>
 <body>
 
-
-	<div class="container-contact100">
-		<div class="wrap-contact100">
-			<div class="uCalc_234001"></div>
-			<div class="myRef" style="display: none"><button>Figures used in this Calculator</button></div>
+<div class="container-contact100">
+	<div class="wrap-contact100">
+			<!-- Locad uCal -->
+		<div class="uCalc_234001"></div>
+			<!-- Reference -->
+		<div class="myRef" style="display: none">
+			<hr>
+			<div class="float-right">
+				<a href="#refModal" data-toggle="modal" data-target="#refModal">Reference</a>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="refModal" tabindex="-1" role="dialog" aria-labelledby="refModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="refModalLabel">How to see your photos on this map</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>This map shows the GPS photos saved in Objective.</p>
+							<ol>
+								<li>Make sure your photos have Latitude and Longitude information in the properties.</li>
+								<li>Upload your photos to this <a href="objective://id:fA1147255@objective.envbop.net" target="_blank">Objective Folder</a>.</li>
+								<li>Objective will pick up the photos around 12:30pm every day. </li>
+								<li>You should be able to see your photos on this map after lunch time.</li>
+							</ol>
+						</div>
+		        <div class="modal-footer"><button type="button" class="btn btn-success" data-dismiss="modal">Close</button></div>
+		        </div>
+		      </div>
+		    </div>
+			</div>
 		</div>
 	</div>
 
