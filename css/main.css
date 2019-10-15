@@ -77,8 +77,8 @@ p {
 }
 
 ul, li {
-	margin: 0px;
-	list-style-type: none;
+	margin: 10px;
+	list-style-type: square;
 }
 
 
